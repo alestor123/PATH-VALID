@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for checking wether input path is valid or not",
   "main": "App.js",
+  "bin": {
+    "path-valid": "cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
